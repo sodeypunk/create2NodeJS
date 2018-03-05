@@ -1,0 +1,27 @@
+{
+  "name": "create2nodejs",
+  "version": "1.0.0",
+  "description": "A create2 library for Roomba",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sodeypunk/create2NodeJS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sodeypunk/create2NodeJS/issues"
+  },
+  "homepage": "https://github.com/sodeypunk/create2NodeJS#readme",
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "serialport": "^6.1.1"
+  }
+}
