@@ -6,11 +6,11 @@ robot.init('/dev/tty.usbserial-DN026DMU');
 
 robot.on('ready', () => {
   console.log('Sending turn left command...');
-  robot.moveForward(100, -1)
+  robot.moveForward(100, 1)
     .then(() => {
       myUtil.sleep(2000);
       console.log('Sending turn right command...');
-      return robot.moveForward(100, 1);
+      return robot.moveForward(100, -1);
     })
     .then(() => {
       myUtil.sleep(2000);
